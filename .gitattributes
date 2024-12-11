@@ -24,4 +24,4 @@ cat > .gitattributes << EOL
 EOL
 *.pickle filter=lfs diff=lfs merge=lfs -binary
 *.p filter=lfs diff=lfs merge=lfs -binary
-*.kivy_venv/ filter=lfs diff=lfs merge=lfs -lib - text
+kivy_venv/ filter=lfs diff=lfs merge=lfs -lib - text
