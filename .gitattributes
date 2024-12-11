@@ -22,6 +22,8 @@ cat > .gitattributes << EOL
 .pickle binary
 .p binary
 EOL
+
+# Python Attr 
 *.pickle filter=lfs diff=lfs merge=lfs -binary
 *.p filter=lfs diff=lfs merge=lfs -binary
 kivy_venv/ filter=lfs diff=lfs merge=lfs -lib - text
