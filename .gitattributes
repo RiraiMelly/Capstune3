@@ -25,3 +25,4 @@ EOL
 *.pickle filter=lfs diff=lfs merge=lfs -binary
 *.p filter=lfs diff=lfs merge=lfs -binary
 kivy_venv/ filter=lfs diff=lfs merge=lfs -lib - text
+*.pyd filter=lfs diff=lfs merge=lfs -text
